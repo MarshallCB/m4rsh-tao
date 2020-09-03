@@ -29,10 +29,5 @@ export default document({
         `)}
       </ul>
     </nav>
-    <footer>
-      <a href="https://en.wikipedia.org/wiki/Tao_Te_Ching">History</a>
-      <a href="https://en.wikisource.org/wiki/Translation:Tao_Te_Ching">References</a>
-      <a href="https://github.com/MarshallCB/tao-m4rsh">Source Code</a>
-    </footer>
   `
 })
