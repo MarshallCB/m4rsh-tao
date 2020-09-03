@@ -28,7 +28,7 @@ export default ({meta, body}) => html`
       <div class="background"></div>
       <div class="container">
         ${body}
-        <footer>
+        <footer class="b">
           <a href="https://en.wikipedia.org/wiki/Tao_Te_Ching">History</a>
           <a href="https://en.wikisource.org/wiki/Translation:Tao_Te_Ching">References</a>
           <a href="https://github.com/MarshallCB/m4rsh-tao">Source Code</a>

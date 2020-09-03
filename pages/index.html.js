@@ -21,7 +21,7 @@ export default document({
         ${JSON.parse(tao).map(c => html`
           <li>
             <a href=${`/chapter/${c.number}`}>
-              <span class="menu-item">
+              <span class="menu-item b">
                 ${c.number}
               </span>
             </a>

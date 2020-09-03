@@ -36,6 +36,7 @@ module.exports = css`
     text-align: center;
     width: 100%;
     font-weight: normal;
+    font-style: italic;
   }
   .title{
     width: 100%;
@@ -46,6 +47,7 @@ module.exports = css`
     margin-bottom: 3rem;
     color: #fff;
     position: relative;
+    font-style: italic;
   }
   .links>li{
     display: inline-block;
@@ -89,7 +91,6 @@ module.exports = css`
     color: hsl(210,100%,80%);
   }
   .links>li:hover>a,.links>li>a:focus{
-    text-decoration: underline;
     background: hsla(210,100%,20%,0.2);
   }
   .menu-item{
@@ -99,7 +100,6 @@ module.exports = css`
     text-align: center;
     top: 50%;
     transform: translate(0,-55%);
-    text-decoration: inherit;
   }
   .card{
     width: 100%;
