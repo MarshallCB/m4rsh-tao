@@ -24,7 +24,7 @@ module.exports = css`
   }
   .container{
     width: 94%;
-    max-width: 50rem;
+    max-width: 40rem;
     margin: 0 auto;
     padding: 3rem 0;
     position: relative;
@@ -40,7 +40,7 @@ module.exports = css`
   }
   .title{
     width: 100%;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 1;
     font-weight: bold;
     text-align: center;
@@ -53,28 +53,23 @@ module.exports = css`
     display: inline-block;
     width: calc(100%/9);
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     position: relative;
   }
   @media(max-width: 800px){
     .links>li{
-      display: inline-block;
       width: calc(100%/6);
-      color: #fff;
-      font-size: 2em;
-      font-weight: bold;
-      position: relative;
     }
   }
   @media(max-width: 600px){
     .links>li{
-      display: inline-block;
+      width: calc(100%/4);
+    }
+  }
+  @media(max-width: 480px){
+    .links>li{
       width: calc(100%/3);
-      line-height: 0;
-      font-size: 2em;
-      font-weight: bold;
-      position: relative;
     }
   }
   .links>li>a{
