@@ -11,14 +11,14 @@ export default ({meta, body}) => html`
       <meta name="description" content="${meta.description}" />
 
       <!-- Favicon generated using realfavicongenerator.net -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-      <link rel="manifest" href="/favicon/site.webmanifest">
-      <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#8a00af">
-      <link rel="shortcut icon" href="/favicon/favicon.ico">
-      <meta name="msapplication-TileColor" content="#211b25">
-      <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=eEY59WGawk">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=eEY59WGawk">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=eEY59WGawk">
+      <link rel="manifest" href="/favicon/site.webmanifest?v=eEY59WGawk">
+      <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=eEY59WGawk" color="#3d668f">
+      <link rel="shortcut icon" href="/favicon/favicon.ico?v=eEY59WGawk">
+      <meta name="msapplication-TileColor" content="#3d668f">
+      <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=eEY59WGawk">
       <meta name="theme-color" content="#ffffff">
 
       <link rel="stylesheet" type="text/css" href="/styles/global.css" />

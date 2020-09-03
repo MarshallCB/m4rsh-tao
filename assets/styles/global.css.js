@@ -11,7 +11,7 @@ module.exports = css`
     color: hsl(210, 100%, 40%);
   }
   html,body{
-    background-color: hsl(210,40%,30%);
+    background-color: hsl(210,30%,40%);
   }
   .background{
     position: fixed;
