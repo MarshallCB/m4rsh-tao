@@ -1,0 +1,15 @@
+{
+  "name": "tao-m4rsh",
+  "description": "Tao Te Ching",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "routo -w & serve public",
+    "build": "routo"
+  },
+  "dependencies": {
+    "routo": "^0.1.0",
+    "serve": "^11.3.2",
+    "svgo": "^1.3.2",
+    "ucontent": "^2.0.0"
+  }
+}
